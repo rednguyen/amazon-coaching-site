@@ -1,0 +1,19 @@
+.col {
+    display: inline-block
+}
+
+.footer-item{
+    list-style: none;
+}
+
+.footer-wrapper{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.social-media {
+    padding: 1vh;
+    font-size: 25px;
+}

@@ -1,0 +1,31 @@
+.who-we-are {
+    display: inline-block;
+    width: 40%;
+}
+
+.who-we-are-wrapper {
+    background:  linear-gradient(rgba(143,80, 0, 0.4),transparent);
+}
+
+.what-is-amazon-fba {
+    text-align: center;
+}
+
+.statistics {
+    padding: 4vh 5vh;
+    display: inline-block;
+    width: 20%;
+}
+
+.statistics-wrapper {
+    text-align: center;
+    background:  linear-gradient(rgba(143,80, 0, 0.4),transparent);
+    padding: 3vh;
+}
+
+
+h5{
+    border-style:dashed;
+    font-weight: 400;
+    font-size: large;
+}

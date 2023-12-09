@@ -1,0 +1,32 @@
+.navbar-wrapper {
+    background: black;
+    /* width: 80%; */
+    margin: 0 auto;
+    /* text-align: right; */
+    padding-top: 8vh;
+    padding-bottom: 1vh;
+    /* position: fixed; */
+    top: 0
+}
+
+.menu-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: bisque; */
+    color: white;
+    margin: 2%;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.navbar-items{
+    display: inline-block;
+    width: 50%
+}
+
+.logo {
+    margin-left: 10vh
+}
+
