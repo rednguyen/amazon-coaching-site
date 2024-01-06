@@ -1,12 +1,25 @@
+import Col from 'react-bootstrap/Col'; 
+import Row from 'react-bootstrap/Row'; 
+import Container from 'react-bootstrap/Container'; 
 import "./Home.css";
 import AmazonGuide from "../asset/amazon-guide.jpg" 
 import AmazonProcess from "../asset/amazon-process.png" 
+import Step1 from "../asset/step1.png" 
+import Step2 from "../asset/step2.png" 
+import Step3 from "../asset/step3.png" 
+import Step4 from "../asset/step4.png" 
+import Step5 from "../asset/step5.png" 
+import Step6 from "../asset/step6.png" 
 
 const Home = () => {
     return (
       <>
-        <div className="who-we-are-wrapper">
-          <div style={{color: "black", padding: "10vh"}} className="who-we-are">
+        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
+          <button className="book-now">BOOK NOW</button>
+        </a>
+        
+        <div className="who-we-are-wrapper" id="about-us">
+          <div style={{color: "black"}} className="who-we-are">
               <h2>Who We Are</h2>
               <h4>Welcome to our online course, your gateway to success in the dynamic world of e-commerce through Amazon FBA (Fulfillment by Amazon) coaching. 
                 In the ever-evolving landscape of online retail, mastering the intricacies of Amazon FBA is the key to unlocking unparalleled growth 
@@ -18,16 +31,16 @@ const Home = () => {
               <h4>What sets us apart is our commitment to providing personalized, results-driven coaching. We go beyond the basics, offering in-depth insights, actionable strategies, 
                 and ongoing support to ensure your success. From product sourcing and listing optimization to inventory management and marketing, our coaching encompasses every facet of the Amazon 
                 FBA ecosystem.</h4>
-              <h4>Embark on a transformative journey with [Company Name], where your ambitions meet expertise. Join us, and let's unlock the full potential of your Amazon FBA business together. 
+              <h4>Embark on a transformative journey with Your Pathway to Amazon FBA, where your ambitions meet expertise. Join us, and let's unlock the full potential of your Amazon FBA business together. 
                 Success awaits – are you ready to seize it?</h4>
           </div>
-          <div style={{color: "black", padding: "10vh"}} className="who-we-are">
-              <img src={AmazonGuide} width="600vh" height="500vh" className="logo"/>
+          <div className="who-we-are">
+              <img src={AmazonGuide} width="500vh" height="500vh" className="amazon-guide"/>
           </div>
         </div>
        
 
-        <div className='what-is-amazon-fba'>
+        <div className='what-is-amazon-fba' id='amazon-fba'>
           <div style={{width:"50%", textAlign:"center", margin: "0 auto"}}>
             <h1>What is Amazon FBA</h1>
             <h4>Fulfillment by Amazon (FBA) is a program that lets you to outsource order fulfillment to Amazon. This ecommerce fulfillment option
@@ -36,12 +49,12 @@ const Home = () => {
             </h4>
           </div>
           <div>
-              <img src={AmazonProcess} width="auto" height="auto" className="logo"/>
+              {/* <img src={AmazonProcess} width="auto" height="auto" className="logo"/> */}
           </div>
         </div>
 
         <div className="statistics-wrapper">
-          <h1>What Do We Provide?</h1>
+          <h1>Our Services</h1>
           <div>
             <div className='statistics'>
               <i class="fa-solid fa-building" style={{color: "#000000", fontSize: "15vh"}}></i>
@@ -53,11 +66,11 @@ const Home = () => {
             </div>
             <div className='statistics'>
               <i class="fa-solid fa-shop" style={{color: "#000000", fontSize: "15vh"}}></i>
-              <h4>10+ Leads per Day</h4>
+              <h4>Multiple Leads per Day</h4>
             </div>
           </div>
             
-          <div style={{display:"flex"}}>
+          {/* <div style={{display:"flex"}}>
             <div className='statistics'>
               <h2>Don't have a LLC for your Amazon business yet?</h2>
               <h5>We'll set you a new one</h5>
@@ -72,13 +85,35 @@ const Home = () => {
               <h2>Don't know which vendor to deal with?</h2>
               <h5>We got the connection you need</h5>
             </div>
-          </div>
+          </div> */}
 
           
-          <div style={{padding: "2vh"}}>
+          {/* <div style={{padding: "2vh"}}>
             <iframe width="30%" height="315" src="https://www.youtube.com/embed/77UmQ5x1ENg?si=p16cGd9BtDIAhvb6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen="true"></iframe>
+          </div> */}
+
+          <div className='amazon-step-wrapper' style={{padding: "10px"}}>
+            <div className='amazon-step'>
+              <img src={Step1} width="500vh" height="400vh" className="amazon-step-item"/>
+            </div>
+            <div className='amazon-step'>
+              <img src={Step2} width="500vh" height="400vh" className="amazon-step-item"/>
+            </div>
+            <div className='amazon-step'>
+              <img src={Step3} width="500vh" height="400vh" className="amazon-step-item"/>  
+            </div>
+            <div className='amazon-step'>
+              <img src={Step4} width="500vh" height="400vh" className="amazon-step-item"/>  
+            </div>
+            <div className='amazon-step'>
+              <img src={Step5} width="500vh" height="400vh" className="amazon-step-item"/>  
+            </div>
+            <div className='amazon-step'>
+              <img src={Step6} width="500vh" height="400vh" className="amazon-step-item"/>  
+            </div>
           </div>
+
         </div>
       </>
       

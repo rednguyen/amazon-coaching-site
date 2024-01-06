@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer = () => {
     return (
       <div className='footer-wrapper'>
-        <div>
+        <div className="social-media-wrapper">
             <a className="social-media"><i class="fa-brands fa-facebook"></i></a>
             <a className="social-media"><i class="fa-brands fa-youtube"></i></a>
             <a className="social-media"><i class="fa-brands fa-tiktok"></i></a>
@@ -11,20 +11,19 @@ const Footer = () => {
         <hr style={{width: "50%"}}/>
         <div className="row">
             <div className="col">
-                <ul className="footer-item">
-                    <a> Title 1 </a>
-                </ul>
+                    <a className="footer-item" style={{color:"white"}} href="/">Home</a>
             </div>
             <div className="col">
-                <ul className="footer-item">
-                    <a>Title 2</a>
-                    
-                </ul>
+                    <a className="footer-item" style={{color:"white"}} href="/about">About Us</a>
             </div>
             <div className="col">
-                <ul className="footer-item">
-                    <a>Title 3</a>
-                </ul>
+                    <a className="footer-item" style={{color:"white"}} href="/about">Amazon FBA</a>
+            </div>
+            <div className="col">
+                    <a className="footer-item" style={{color:"white"}} href="/mission">Our Services</a>
+            </div>
+            <div className="col">
+                    <a className="footer-item" style={{color:"white"}} href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">Contact</a>
             </div>
         </div>
         <hr style={{width: "80%"}}/>

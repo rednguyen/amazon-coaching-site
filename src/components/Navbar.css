@@ -1,19 +1,29 @@
-.navbar-wrapper {
-    background: black;
-    /* width: 80%; */
-    margin: 0 auto;
-    /* text-align: right; */
-    padding-top: 8vh;
-    padding-bottom: 1vh;
-    /* position: fixed; */
-    top: 0
+
+
+.navbar-wrapper { 
+    /* height: 500px; */
+    clear: both;
+    position: relative;
+    height: 70vh;
+}
+
+.navbar-wrapper::before {
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;   
+    left: 0;
+    background-image: url("../asset/amazon-fba-background.jpg");
+    background-size: cover;
+    opacity: 70%;
+    content: ""
 }
 
 .menu-item {
     padding-left: 10px;
     padding-right: 10px;
     /* background-color: bisque; */
-    color: white;
+    color: rgb(236, 228, 228);
     margin: 2%;
     border-radius: 5px;
     text-decoration: none;
@@ -22,11 +32,85 @@
 }
 
 .navbar-items{
-    display: inline-block;
-    width: 50%
+    text-align: center;
+}
+
+.menu-list {
+    width: 80%;
+    
 }
 
 .logo {
-    margin-left: 10vh
+    text-align: center;
+    margin-bottom: 10px;
 }
 
+.logo img {
+    border: 3px solid rgb(155, 150, 173)
+}
+
+.social-media {
+    padding: 1vh;
+    font-size: 25px;
+}
+
+.menu {
+    background:  rgb(20, 24, 51);
+    padding: 10px;
+}
+
+
+.menu-item:hover{
+    text-decoration: underline;
+}
+
+.dropdown-menu{
+    /* width: 10%; */
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(110, 10, 10);
+    border: 1px solid rgb(148, 133, 202)
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dropdown-menu-item {
+    /* background-color: bisque; */
+    color: rgb(201, 184, 183);
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bolder;
+    /* border: 1px solid rgb(148, 133, 202); */
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+
+
+ .dropdown-menu-icon {
+    color: white;
+    font-size: xx-large;
+    display: none;
+ }
+
+.dropdown-menu-item:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+   
+    .navbar-items {
+        display: none
+    }
+
+    .dropdown-menu{
+        width: 90%;
+    }
+
+    .dropdown-menu-icon {
+        display: block;
+    }
+  }

@@ -1,19 +1,27 @@
 .col {
-    display: inline-block
+    display: inline-block;
+    padding: 10px
 }
 
-.footer-item{
-    list-style: none;
-}
 
 .footer-wrapper{
     background-color: black;
     text-align: center;
     color: white;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .social-media {
     padding: 1vh;
     font-size: 25px;
 }
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .col {
+        display: block
+    }
+  }
