@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './Navbar.css'
-import { Outlet, Link } from "react-router-dom";
 import { FiAlignJustify } from "react-icons/fi";
 import { FiXSquare } from "react-icons/fi";
 import AmazonLogo from "../asset/amazon-logo.png"

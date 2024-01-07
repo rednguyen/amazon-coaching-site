@@ -1,8 +1,6 @@
-import { render } from 'react-dom';
 import App from './App.js';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar.js';
 import Home from './components/Home.js';
 import Contact from './components/Contact.js';
 import Mission from './components/Mission.js';
