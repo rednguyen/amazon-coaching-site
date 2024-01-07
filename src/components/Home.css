@@ -2,17 +2,21 @@
     display: inline-block;
     width: 50%;
     text-align: center;
-    padding-top: 5rem;
 }
 
 .who-we-are-wrapper {
     background:  linear-gradient(rgba(143,80, 0, 0.4),transparent);
+    padding-bottom: 10vh;
 }
 
 .what-is-amazon-fba {
     width: 50%;
     text-align: center;
     margin: 0 auto
+}
+
+.amazon-guide {
+    padding-top: 5vh;
 }
 
 .statistics {
