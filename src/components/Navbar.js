@@ -9,12 +9,17 @@ function Navbar() {
   const [openProfile, setOpenProfile] = useState(false);
 
   return (
-    <div className='wrapper'>
+    <div className='wrapper' id="navbar">
       <div style={{background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
             <a className="social-media"><i class="fa-brands fa-facebook"></i></a>
             <a className="social-media"><i class="fa-brands fa-youtube"></i></a>
             <a className="social-media"><i class="fa-brands fa-tiktok"></i></a>
       </div>
+
+      <div style={{background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
+            <a className="arrow-up" href="#navbar"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+      </div>
+
       <div className='navbar-wrapper'>
        
       </div>

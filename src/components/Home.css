@@ -10,7 +10,9 @@
 }
 
 .what-is-amazon-fba {
+    width: 50%;
     text-align: center;
+    margin: 0 auto
 }
 
 .statistics {
@@ -59,7 +61,8 @@
         width: 100%;
     }
     .amazon-guide {
-        width: 80%;
+        width: 100%;
+        height: auto;
     }
     .statistics{
         margin: 0 auto;
@@ -71,6 +74,9 @@
     }
     .amazon-step-item{
         width: 100%;
+        height: auto;
     }
-   
+    .what-is-amazon-fba{
+        width: 80%;
+    }
   }

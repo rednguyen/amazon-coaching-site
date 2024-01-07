@@ -59,6 +59,18 @@
     padding: 10px;
 }
 
+.arrow-up {
+    position: fixed;
+    right: 1%;
+    bottom: 10%;
+    background-color: rgb(46, 73, 161);
+    font-size: larger;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 10px;
+    border: double
+}
 
 .menu-item:hover{
     text-decoration: underline;

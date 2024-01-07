@@ -37,7 +37,7 @@ const Home = () => {
        
 
         <div className='what-is-amazon-fba' id='amazon-fba'>
-          <div style={{width:"50%", textAlign:"center", margin: "0 auto"}}>
+          <div>
             <h1>What is Amazon FBA</h1>
             <h4>Fulfillment by Amazon (FBA) is a program that lets you to outsource order fulfillment to Amazon. This ecommerce fulfillment option
               is part of a fully automated set services we call Supply Chain by Amazon.
