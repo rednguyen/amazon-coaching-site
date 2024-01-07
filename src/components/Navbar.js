@@ -26,8 +26,8 @@ function Navbar() {
         
         <div className='navbar-items'>
             <a className='menu-item' href="/">Home</a>
-            <a className='menu-item' href="#about-us">About Us</a>
-            <a className='menu-item' href="#amazon-fba">Amazon FBA</a>
+            <a className='menu-item' href="/#about-us">About Us</a>
+            <a className='menu-item' href="/#amazon-fba">Amazon FBA</a>
             <a className='menu-item' href="/mission">Our Services</a>
             <a className='menu-item' href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">Contact</a>
         </div>
@@ -45,8 +45,8 @@ function Navbar() {
           openProfile && <div className='dropdown-menu'> 
           <ul>
             <a className='dropdown-menu-item' href="/">Home</a>
-            <a className='dropdown-menu-item' href="#about-us">About Us</a>
-            <a className='dropdown-menu-item' href="#amazon-fba">Amazon FBA</a>
+            <a className='dropdown-menu-item' href="/#about-us">About Us</a>
+            <a className='dropdown-menu-item' href="/#amazon-fba">Amazon FBA</a>
             <a className='dropdown-menu-item' href="/mission">Our Services</a>
             <a className='dropdown-menu-item' href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">Contact</a>
           </ul>       

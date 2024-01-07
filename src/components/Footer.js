@@ -14,10 +14,10 @@ const Footer = () => {
                     <a className="footer-item" style={{color:"white"}} href="/">Home</a>
             </div>
             <div className="col">
-                    <a className="footer-item" style={{color:"white"}} href="/about">About Us</a>
+                    <a className="footer-item" style={{color:"white"}} href="/#about-us">About Us</a>
             </div>
             <div className="col">
-                    <a className="footer-item" style={{color:"white"}} href="/about">Amazon FBA</a>
+                    <a className="footer-item" style={{color:"white"}} href="/#amazon-fba">Amazon FBA</a>
             </div>
             <div className="col">
                     <a className="footer-item" style={{color:"white"}} href="/mission">Our Services</a>
