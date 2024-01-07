@@ -1,9 +1,5 @@
-import Col from 'react-bootstrap/Col'; 
-import Row from 'react-bootstrap/Row'; 
-import Container from 'react-bootstrap/Container'; 
 import "./Home.css";
 import AmazonGuide from "../asset/amazon-guide.jpg" 
-import AmazonProcess from "../asset/amazon-process.png" 
 import Step1 from "../asset/step1.png" 
 import Step2 from "../asset/step2.png" 
 import Step3 from "../asset/step3.png" 

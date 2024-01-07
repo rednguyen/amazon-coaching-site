@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className='wrapper'>
-      <div style={{color:"black", background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
+      <div style={{background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
             <a className="social-media"><i class="fa-brands fa-facebook"></i></a>
             <a className="social-media"><i class="fa-brands fa-youtube"></i></a>
             <a className="social-media"><i class="fa-brands fa-tiktok"></i></a>
