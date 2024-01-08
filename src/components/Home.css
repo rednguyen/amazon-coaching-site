@@ -82,6 +82,7 @@ td {
 }
 
 .other-course{
+    display: block;
     background-color: rgb(49, 67, 168);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
@@ -89,8 +90,11 @@ td {
     cursor:pointer;
     padding: 10px;
     border-radius: 10px;
-    display: block;
-    margin: 3vh auto;
+    margin: 3vh auto
+}
+
+a {
+    text-decoration: none;
 }
 
 /* .other-course-wrapper {
