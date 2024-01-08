@@ -6,8 +6,14 @@ import Step3 from "../asset/step3.png"
 import Step4 from "../asset/step4.png" 
 import Step5 from "../asset/step5.png" 
 import Step6 from "../asset/step6.png" 
+import dataService from "./service"
 
 const Home = () => {
+    const listServices = dataService.map((item) =>
+    <tr>
+      <td>{item.name}</td>
+    </tr>
+    );
     return (
       <>
         <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
@@ -64,7 +70,18 @@ const Home = () => {
               <i class="fa-solid fa-shop" style={{color: "#000000", fontSize: "15vh"}}></i>
               <h4>Multiple Leads per Day</h4>
             </div>
+            
+            <table className="service-table">
+                    <tr>
+                        <th>Seller Account Reinstatment Services</th>
+                    </tr>
+                    {listServices}
+            </table>
+            
           </div>
+
+         
+          
             
           {/* <div style={{display:"flex"}}>
             <div className='statistics'>
@@ -108,6 +125,10 @@ const Home = () => {
             <div className='amazon-step'>
               <img src={Step6} width="500vh" height="400vh" className="amazon-step-item"/>  
             </div>
+            <a className="other-course-wrapper" href="/mission">
+              <button className="other-course">OTHER COURSES</button>
+            </a>
+
           </div>
 
         </div>

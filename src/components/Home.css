@@ -34,7 +34,7 @@
 }
 
 .amazon-step-wrapper {
-    border: double
+    border: double;
 }
 
 .statistics-wrapper {
@@ -59,6 +59,45 @@
     border-radius: 10px;
 }
 
+.service-table {
+    border: double rgb(39, 1, 1);
+    margin-bottom: 10vh;
+    font-size: large;
+    display: inline-table;
+    /* background-color: rgb(187, 167, 167); */
+    width: 30%;
+}
+
+
+
+th {
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+td {
+    border: 1px solid rgb(87, 18, 18);
+    /* text-align: "center" */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.other-course{
+    background-color: rgb(49, 67, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 3vh auto;
+}
+
+/* .other-course-wrapper {
+    margin: 100px;
+} */
+
+
 @media screen and (max-width: 1000px) {
     .who-we-are {
         /* display: block; */
@@ -82,5 +121,8 @@
     }
     .what-is-amazon-fba{
         width: 80%;
+    }
+    .service-table{
+        width: 100%;
     }
   }
