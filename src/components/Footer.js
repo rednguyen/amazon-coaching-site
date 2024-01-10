@@ -4,9 +4,9 @@ const Footer = () => {
     return (
       <div className='footer-wrapper'>
         <div className="social-media-wrapper">
-            <a className="social-media"><i class="fa-brands fa-facebook"></i></a>
-            <a className="social-media"><i class="fa-brands fa-youtube"></i></a>
-            <a className="social-media"><i class="fa-brands fa-tiktok"></i></a>
+            <a className="social-media" href="https://www.facebook.com/profile.php?id=61555668352586"><i class="fa-brands fa-facebook"></i></a>
+            <a className="social-media" href="https://www.youtube.com/@VietSellerSupport"><i class="fa-brands fa-youtube"></i></a>
+            <a className="social-media" ><i class="fa-brands fa-tiktok"></i></a>
         </div>
         <hr style={{width: "50%"}}/>
         <div className="row">

@@ -17,6 +17,10 @@
     font-size: 25px;
 }
 
+.footer-item:hover{
+    text-decoration: underline;
+}
+
 
 
 

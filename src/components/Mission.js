@@ -8,9 +8,6 @@ import Privatelabel from "../asset/PrivateLabel.png"
 const Mission = () => {
     return (
       <>
-        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
-          <button className="book-now">BOOK NOW</button>
-        </a>
         <div style={{color: "black"}} className="servicer-wrapper">
             <h1 className="service">FOR BEGINNER</h1>
             <div className='service-item'>

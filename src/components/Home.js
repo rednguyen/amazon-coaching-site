@@ -16,9 +16,7 @@ const Home = () => {
     );
     return (
       <>
-        <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
-          <button className="book-now">BOOK NOW</button>
-        </a>
+      
         
         <div className="who-we-are-wrapper" id="about-us">
           <div style={{color: "black"}} className="who-we-are">

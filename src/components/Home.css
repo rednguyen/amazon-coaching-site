@@ -45,20 +45,6 @@
 
 
 
-
-.book-now{
-    position: fixed;
-    right: 0;
-    top: 50%;
-    background-color: rgb(49, 67, 168);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
-    color: white;
-    cursor:pointer;
-    padding: 10px;
-    border-radius: 10px;
-}
-
 .service-table {
     border: double rgb(39, 1, 1);
     margin-bottom: 10vh;
@@ -91,6 +77,10 @@ td {
     padding: 10px;
     border-radius: 10px;
     margin: 3vh auto
+}
+
+.other-course:hover{
+    font-size: x-large;
 }
 
 a {

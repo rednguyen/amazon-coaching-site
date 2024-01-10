@@ -5,8 +5,11 @@
     clear: both;
     position: relative;
     height: 70vh;
+    background-image: url("../asset/amazon-fba-background.jpg");
+    background-size: cover;
+    opacity: 70%;
 }
-
+/* 
 .navbar-wrapper::before {
     position: absolute;
     top: 0;
@@ -17,7 +20,7 @@
     background-size: cover;
     opacity: 70%;
     content: ""
-}
+} */
 
 .menu-item {
     padding-left: 10px;
@@ -52,6 +55,7 @@
 .social-media {
     padding: 1vh;
     font-size: 25px;
+    color: white;
 }
 
 .menu {
@@ -70,6 +74,10 @@
     padding: 10px;
     border-radius: 10px;
     border: double
+}
+
+.arrow-up:hover {
+    font-size: x-large;
 }
 
 .menu-item:hover{
@@ -111,6 +119,47 @@ ul {
 .dropdown-menu-item:hover{
     text-decoration: underline;
 }
+
+
+.book-now{
+    background-color: rgb(49, 67, 168);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: white;
+    cursor:pointer;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.book-now:hover{
+    font-size: x-large;
+}
+
+
+
+a {
+    cursor: pointer;
+}
+
+.social-media:hover {
+    background-color: rgb(8, 49, 126);
+  }
+
+.book-now-wrapper{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    z-index: 3
+}
+
+.side-button {
+    display: block;
+    text-align: right;
+}
+
+
+
 
 @media screen and (max-width: 1000px) {
    

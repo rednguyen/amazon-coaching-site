@@ -11,10 +11,26 @@ function Navbar() {
   return (
     <div className='wrapper' id="navbar">
       <div style={{background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
-            <a className="social-media"><i class="fa-brands fa-facebook"></i></a>
-            <a className="social-media"><i class="fa-brands fa-youtube"></i></a>
-            <a className="social-media"><i class="fa-brands fa-tiktok"></i></a>
+            <a className="social-media" href="https://www.facebook.com/profile.php?id=61555668352586"><i class="fa-brands fa-facebook"></i></a>
+            <a className="social-media" href="https://www.youtube.com/@VietSellerSupport"><i class="fa-brands fa-youtube"></i></a>
+            <a className="social-media" ><i class="fa-brands fa-tiktok"></i></a>
       </div>
+
+      <div className="book-now-wrapper">
+        <a className='side-button' href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
+            <button style={{background: "rgb(230, 77, 0)"}} className="book-now">BOOK NOW</button>
+        </a>
+        <a className='side-button' href="https://www.facebook.com/profile.php?id=61555668352586">
+            <button style={{background: "rgb(49, 67, 168)"}} className="book-now">FACEBOOK</button>
+        </a>
+        <a className='side-button' href="https://www.youtube.com/@VietSellerSupport">
+            <button style={{background: "rgb(179, 0, 0)"}} className="book-now">YOUTUBE</button>
+        </a>
+        <a className='side-button' href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3TmuHenV034sbXh7XMwuxDntCnvzGrf1v3IBgKHOaHidbY4ClPAmZMWJttVOYk2nx_bIRJrAIa?pli=1">
+            <button style={{background: "black"}} className="book-now">TIKTOK</button>
+        </a>
+      </div>
+      
 
       <div style={{background:"brown", textAlign: "right", color:"white", padding: "5px"}}>
             <a className="arrow-up" href="#navbar"><i class="fa-sharp fa-solid fa-arrow-up"></i></a>
